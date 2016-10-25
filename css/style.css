@@ -1,0 +1,76 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* 
+=======================================================
+Fonts
+=======================================================
+*/
+
+body {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+/* Make sure to add color and font-weight within 
+individual sections since you're not adding it here. 
+Colors used are #484843 and #000; refer to mockup for 
+locations. */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", Times, Georgia, serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.hero p {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 100;
+}
+
+/*
+========================================================
+Grid
+========================================================
+*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear:both;
+}
+
+.one-half, .one-third, .one-fourth {
+  width: 96%;
+  float: left;
+  position: relative;
+  margin: 0 2% 20px;
+}
