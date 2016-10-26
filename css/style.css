@@ -102,6 +102,24 @@ p {
     width: 1170px;
   }
 }
+
+/*
+  ======================================================
+  Buttons
+  ======================================================
+*/
+
+.btn {
+  border-radius: 4px;
+  color: #484843;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 30px;
+  background: #ffa65d;
+  -webkit-box-shadow: 0px 2px 3px 0px rgb(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 3px 0px rgb(0,0,0,0.5);
+  box-shadow: 0px 2px 3px 0px rgb(0,0,0,0.5)
+}
  
 /*
   ======================================================
@@ -147,7 +165,7 @@ header nav ul > li > a {
   text-decoration: none;
 }
 
-.site-logo {
+header .site-logo {
   display: inline-block;
 }
 
@@ -157,21 +175,25 @@ header nav ul > li > a {
   ======================================================
 */
 
-.hero {
+header .hero {
   text-align: center;
+  display: block;
+  position: relative;
+}
+
+header .hero h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 95px 0 0;
+}
+
+header .hero p {
+  margin: 10px 0 40px;
 }
 
 .hero img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero a {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3em auto 0;
 }
 
 /*
@@ -181,30 +203,33 @@ header nav ul > li > a {
 */
 
 #note-box {
-  padding: 30px;
+  margin: 30px 10px;
   display: inline-block;
   background: #00cba1;
   width: 525px;
   height: 291px;
   float: right;
+  position: relative;
 }
 
 #image-box {
-  padding: 30px;
+  padding: 30px 10px;
   display: inline-block;
   background: #00a08d;
   width: 525px;
   height: 291px;
   float: left;
+  position: relative;
 }
 
 #link-box {
-  padding: 30px;
+  padding: 30px 10px;
   display: inline-block;
   background: #007575;
   width: 525px;
   height: 291px;
   float: right;
+  position: relative;
 }
 
 ul {
@@ -213,4 +238,5 @@ ul {
 
 .features {
   text-align: center;
+  position: relative;
 }
