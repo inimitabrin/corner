@@ -3,13 +3,14 @@ html, body {
 }
 
 /* 
-=======================================================
-Fonts
-=======================================================
+  =====================================================
+  Custom Styles
+  =====================================================
 */
 
 body {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  background-color: #fffdf3
 }
 
 /* Make sure to add color and font-weight within 
@@ -45,9 +46,9 @@ p {
 }
 
 /*
-========================================================
-Grid
-========================================================
+  ======================================================
+  Grid
+  ======================================================
 */
 
 .container {
@@ -73,4 +74,143 @@ Grid
   float: left;
   position: relative;
   margin: 0 2% 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992 px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width: 46%;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+ 
+/*
+  ======================================================
+  Header
+  ======================================================
+*/
+
+header {
+  color: #000;
+  background-image: linear-gradient(-180deg, #00cba1 17%, #fffdf3 100%);
+}
+
+header nav {
+  padding: 1em 0;
+}
+
+header nav ul {
+display: inline;
+text-align: right;
+float: right;
+margin: 0;
+}
+
+header nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header nav ul > li.btn-outline {
+  padding: 10px 15px;
+  border: 1.5px solid #484843;
+  border-radius: 4px;
+  background: #ffa65d
+}
+
+header nav ul > li.btn-outline:hover {
+  background: #fffdf3
+}
+
+header nav ul > li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.site-logo {
+  display: inline-block;
+}
+
+/*
+  ======================================================
+  Hero
+  ======================================================
+*/
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero a {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+  ======================================================
+  Features
+  ======================================================
+*/
+
+#note-box {
+  padding: 30px;
+  display: inline-block;
+  background: #00cba1;
+  width: 525px;
+  height: 291px;
+  float: right;
+}
+
+#image-box {
+  padding: 30px;
+  display: inline-block;
+  background: #00a08d;
+  width: 525px;
+  height: 291px;
+  float: left;
+}
+
+#link-box {
+  padding: 30px;
+  display: inline-block;
+  background: #007575;
+  width: 525px;
+  height: 291px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.features {
+  text-align: center;
 }
