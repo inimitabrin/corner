@@ -76,6 +76,12 @@ p {
   margin: 0 2% 20px;
 }
 
+/*
+  ======================================================
+  Media Queries
+  ======================================================
+*/
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -100,6 +106,12 @@ p {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .container {
+    width: 1210px;
   }
 }
 
