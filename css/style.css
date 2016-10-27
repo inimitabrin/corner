@@ -83,37 +83,37 @@ p {
 */
 
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
+   .container {
+     width: 750px;
+   }
+ }
 
-@media (min-width: 992 px) {
-  .container {
-    width: 970px;
-  }
-  .one-half {
-    width: 46%;
-  }
-  .one-third {
-    width: 29.33333%;
-  }
-  .one-fourth {
-    width: 21%;
-  }
-}
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width: 46%;
+   }
+   .one-third {
+     width: 29.33333%;
+   }
+   .one-fourth {
+     width: 21%;
+   }
+ }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
 
-@media (min-width: 1240px) {
-  .container {
-    width: 1210px;
-  }
-}
+ @media (min-width: 1240px) {
+   .container {
+     width: 1210px;
+   }
+ }
 
 /*
   ======================================================
@@ -218,8 +218,8 @@ header .hero p {
   margin: 30px 10px;
   display: inline-block;
   background: #00cba1;
-  width: 525px;
-  height: 291px;
+  width: 545px;
+  height: 351px;
   float: right;
   position: relative;
 }
@@ -244,11 +244,195 @@ header .hero p {
   position: relative;
 }
 
-ul {
+.features ul {
+  margin: 0 auto;
+  padding: 4em 0;
+}
+
+.features ul li {
+  display: inline-block;
   list-style-type: none;
 }
 
 .features {
   text-align: center;
   position: relative;
+}
+
+.features img {
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+.features h2 {
+  color: #484843;
+}
+
+.features p {
+  color: #484843;
+}
+
+/*
+  ======================================================
+  Testimonials
+  ======================================================
+*/
+
+.testimonials {
+  background-image: linear-gradient(0deg, #00CBA1 0%, #FFFDF3 100%);
+  padding: 4em 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #484843;
+  font-weight: 700;
+}
+
+.testimonials p {
+  color: #484843;
+  font-weight: 500;
+}
+
+.testimonials ul li {
+  list-style-type: none;
+}
+
+.testimonials blockquote {
+  color: #000;
+  text-align: left;
+  font-style: italic;
+  background: #fffdf3;
+  position: relative;
+  padding: 30px;
+  width: auto;
+  margin: 0;
+}
+
+.testimonials blockquote:after {
+  top: 100%;
+  left: 13%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #fffdf3;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.testimonials img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  float: left;
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+
+.testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #000;
+  margin-bottom: -30px;
+}
+
+/*.testimonials .down {
+  margin-top: 20px;
+}*/
+
+/*
+  ======================================================
+  Pricing
+  ======================================================
+*/
+
+.pricing {
+  background-image: linear-gradient(-180deg, #00A08D 16%, #007575 100%);
+  text-align: center;
+  padding: 4em 0;
+}
+
+.pricing h2, .pricing p {
+  color: #000;
+}
+
+.pricing ul {
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.pricing ul li {
+  list-style-type: none;
+}
+
+.box {
+  background: #fffdf3;
+  min-height: 439px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.box.middle {
+  min-height: 485px;
+  margin-top: 0px;
+}
+
+.box h3 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #00cba1;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.box h4 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 40px 0 10px;
+  color: #484843;
+}
+
+.box h4 span {
+  font-size: 32px;
+  vertical-align: top;
+}
+
+.box h4 span.month {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: -10px;
+}
+
+.box ul li {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.box .btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.disclaimer {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-style: italic;
+  display: inline-block;
+  margin-top: -15px;
+  margin-bottom: -30px;
 }
