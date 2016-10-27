@@ -115,6 +115,12 @@ p {
    }
  }
 
+ @media (max-width: 1163px) {
+  #note-box, #image-box, #link-box {
+    display: none;
+  }
+ }
+
 /*
   ======================================================
   Buttons
