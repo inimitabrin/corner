@@ -436,3 +436,63 @@ header .hero p {
   margin-top: -15px;
   margin-bottom: -30px;
 }
+
+/*
+  ======================================================
+  Footer
+  ======================================================
+*/
+
+footer {
+  background-color: #00cba1;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+footer p, footer nav ul {
+  font-size: 20px;
+  font-weight: 100px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+footer nav ul {
+  margin: 10px auto 0;
+}
+
+footer p {
+  margin: 17px auto 0;
+}
+
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+footer nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .logo {
+  margin: 0 auto;
+  display: block;
+}
+
+@media (min-width: 991px) {
+  footer {
+    background-color: #00cba1;
+    height: 100px;
+  }
+
+  footer p, footer nav ul {
+    padding: .8em 0;
+    text-align: center;
+  }
+
+  footer .logo {
+    padding: 1em 0 1em 1.5em;
+  }
+}
