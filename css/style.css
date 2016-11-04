@@ -13,11 +13,6 @@ body {
   background-color: #fffdf3
 }
 
-/* Make sure to add color and font-weight within 
-individual sections since you're not adding it here. 
-Colors used are #484843 and #000; refer to mockup for 
-locations. */
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", Times, Georgia, serif;
 }
@@ -82,6 +77,18 @@ p {
   ======================================================
 */
 
+@media (max-width: 991px) {
+   header .one-half {
+    width: 46%;
+   }
+ }
+
+ @media (max-width: 550px) {
+  .btn-outline {
+    margin-top: 1em;
+   }
+ }
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -113,12 +120,6 @@ p {
    .container {
      width: 1210px;
    }
- }
-
- @media (max-width: 1163px) {
-  #note-box, #image-box, #link-box {
-    display: none;
-  }
  }
 
 /*
@@ -222,7 +223,6 @@ header .hero p {
 
 #note-box {
   margin: 30px 10px;
-  display: inline-block;
   background: #00cba1;
   width: 545px;
   height: 351px;
@@ -232,7 +232,6 @@ header .hero p {
 
 #image-box {
   padding: 30px 10px;
-  display: inline-block;
   background: #00a08d;
   width: 525px;
   height: 291px;
@@ -242,7 +241,6 @@ header .hero p {
 
 #link-box {
   padding: 30px 10px;
-  display: inline-block;
   background: #007575;
   width: 525px;
   height: 291px;
@@ -277,6 +275,29 @@ header .hero p {
 .features p {
   color: #484843;
 }
+
+  @media (max-width: 1199px) {
+    [id$="-box"] {
+      display: none;
+    }
+
+    #links {
+      z-index: 1;
+      margin-left: 15em;
+    }
+ }
+
+  @media (max-width: 980px) {
+     #links {
+     margin-left: 0;
+     }
+  }
+
+  @media (min-width: 1214px) {
+     [id$="-box"] {
+       display: inline-block;
+    }
+  }
 
 /*
   ======================================================
@@ -451,7 +472,7 @@ header .hero p {
 
 footer {
   background-color: #00cba1;
-  height: 150px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -487,18 +508,18 @@ footer .logo {
   display: block;
 }
 
-@media (min-width: 991px) {
-  footer {
-    background-color: #00cba1;
-    height: 100px;
-  }
+  @media (min-width: 991px) {
+    footer {
+     background-color: #00cba1;
+      height: 100px;
+    }
 
-  footer p, footer nav ul {
-    padding: .8em 0;
-    text-align: center;
-  }
+   footer p, footer nav ul {
+      padding: .8em 0;
+      text-align: center;
+    }
 
-  footer .logo {
-    padding: 1em 0 1em 1.5em;
+   footer .logo {
+     padding: 1em 0 1em 1.5em;
+   }
   }
-}
