@@ -543,10 +543,11 @@ footer .logo {
 }
 
 .top-nav .site-logo {
-  padding: 20px 20px;
+  padding: 20px 0 20px 20px;
   display: inline-block;
   border: 1px solid #000;
   height: 71px;
+  width: 14%;
 }
 
 .top-nav a{
@@ -565,20 +566,17 @@ footer .logo {
   font-size: 24px;
   color: #000; 
   text-align: center;
-  margin-bottom: -10px;
 }
 
 .top-nav .nav-box i {
   font-size: 24px;
   color: #000;
-  margin-top: -30px;
   margin-left: 136px;
-  text-align: center;
 }
 
 .top-nav .account {
   border: 1px solid #000;
-  width: 15.78%;
+  width: 14.6205%;
   display: inline-block;
   height: 111px;
 }
@@ -589,6 +587,7 @@ footer .logo {
   border-radius: 50%;
   margin-left: 60px;
   margin-bottom: -20px;
+  margin-top: 5px;
 }
 
 .top-nav .account p {
@@ -596,6 +595,7 @@ footer .logo {
   font-size: 20px;
   color: #000;
   text-align: center;
+  margin-bottom: -20px;
 }
 
 .top-nav .account i {
