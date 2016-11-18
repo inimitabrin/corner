@@ -757,7 +757,7 @@ footer .logo {
 }
 
 .content .header {
-  margin: -40px 1% 20px;
+  margin: -40px 50px 20px;
 }
 
 .content .header h1 {
@@ -801,7 +801,7 @@ footer .logo {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 858px) {
   .content {
     padding: 1.5em 5%;
     width: 98%;
@@ -813,14 +813,14 @@ footer .logo {
   }
 
   .content-item {
-    width: 31.33333%;
-    margin: 0 1% 25px;
+    width: 28%;
+    margin: 0 2% 25px;
   }
 }
 
 @media (min-width: 992px) {
   .content {
-    padding: 1.5em 1%;
+    padding: 1.5em .75%;
     width: 83.333333%;
     position: relative;
   }
@@ -830,9 +830,13 @@ footer .logo {
   }
 
   .content-item {
-    width: 23%;
-    margin: 0 1% 25px;
+    width: 22%;
+    margin: 0 1.5% 25px 1%;
   }
+
+  .content .header {
+  margin: -40px 1% 20px;
+}
 }
 
 .item-box > img {
